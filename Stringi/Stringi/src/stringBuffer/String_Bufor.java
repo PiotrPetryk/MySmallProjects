@@ -1,10 +1,10 @@
 package stringBuffer;
 
-public class StringBuffer {
+public class String_Bufor {
 	
 	public static String skompresuj(String inputStr) {
 		String outStr = "";
-		java.lang.StringBuffer sb = new java.lang.StringBuffer(outStr);
+		StringBuffer sb = new StringBuffer(outStr);
 		int strLength = inputStr.length();
 		for (int i=0; i<strLength;) {
 			int n=1;
